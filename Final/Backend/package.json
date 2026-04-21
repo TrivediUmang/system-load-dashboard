@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "dev": "node server.js",
+    "collect": "node Datacollect.js",
+    "import-csv": "node scripts/importcsv.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.6.8",
+    "cors": "^2.8.6",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "groq-sdk": "^1.1.2",
+    "mongoose": "^9.4.1",
+    "os-utils": "^0.0.14",
+    "systeminformation": "^5.22.7"
+  }
+}
